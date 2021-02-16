@@ -31,8 +31,8 @@ a{color:white;}
     border : 1px solid red;
     width: 100%;
     /*631 to be close to 629*/
-    height: 951px;
-    height:  99.79vh;
+    min-height: 627px;
+    max-height: 100vh;
     font-style:cursive ;
     text-align: center;
     background-color:rgba(3, 3, 3, 0.911);
@@ -41,8 +41,8 @@ a{color:white;}
 {
     #welcome-section
     {
-        width :max-content;
-        height: 629px;
+        width :auto;
+        max-height: 100vh;
         font-size: small;
 
     }
